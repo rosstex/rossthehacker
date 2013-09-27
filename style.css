@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: #8e71e9;
+}
+body {
+	font-family: "Helvetica Neue", "Comic Sans MS";
+	width: 900px;
+	margin: 0 auto;
+}
+#logo {
+	float: left;
+}
+nav {
+	float: right;
+}
+header {
+	background-color: red;
+	overflow: auto;
+}
+section {
+	background-color: white;
+	overflow: auto;
+}
+#left {
+	width: 30%;
+	float: left;
+}
+#right {
+	width: 70%;
+	float: right;
+}
+footer {
+	/*background-color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align:*/
+}
+.cell {
+	background-color: white;
+	border: 1px solid blue;
+	margin: 5px;
+	padding: 5px;
+	color: black;
+}
+textarea {
+	font-family: "Comic Sans MS";
+	width: 100%;
+}
+.post-button {
+	color: red;
+	text-decoration: none;
+	background-color: orange;
+	padding: 10px;
+	display: block;
+	border-radius: 5px;
+	box-shadow: 0 0 20px black;
+	-moz-transition: all 1s ease;
+}
+.post-button:hover {
+	box-shadow: red;
